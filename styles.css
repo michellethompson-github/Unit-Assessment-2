@@ -1,0 +1,200 @@
+/* 
+
+these are the colors used in the example
+***you can use them if you'd like or you can choose your own***
+
+black - rgb(37, 37, 37)
+blue - rgb(42, 171, 226)
+shadow - rgba(102, 75, 75, .3)
+white - rgb(255, 255, 255) (default value) 
+
+the font is called 'nunito' and can be found on google fonts
+***you can use it if you'd like or you can choose your own***
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.content {
+  min-height:calc(100vh - 184px);
+  padding: 30px 100px;
+}
+
+.main-content {
+  float:left;   /*Floating the left div to left */
+  margin-top:60px;
+  width: calc(70% - 50px);
+  padding-right: 50px;
+}
+
+.sidebar {
+  margin-top:60px;
+  float:left;
+  width: 30%;
+
+}
+
+.card {
+ padding: 20px 10px;
+ border-radius: 8px;
+ box-shadow: 1px 1px 21px #d0d0d0;
+ margin-bottom: 30px;
+ width: 100%;
+
+}
+
+.my-width { /* class name can be anything */
+  /* width:100%; */
+}
+
+.image {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.image img {
+width: 170px;
+max-width: 100%;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.your-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.image-gallery {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+  position: relative;
+
+}
+
+.view-btn {
+position:absolute;
+cursor:pointer;
+color: #53aadd;
+right: 0;
+}
+
+.para-style {
+  margin: 16px 0;
+ 
+}
+
+.nav-left {
+  float:left;
+}
+
+.nav-right {
+  float:right;
+  margin-top:8px;
+}
+
+nav .logo {
+  color: #53aadd;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.clearfix {
+  float:none;
+  clear:both;
+}
+
+nav {
+  width:calc(100% - 20px);
+  position: fixed;
+  top:0;
+  background: #252525;
+  padding: 14px 20px;
+  
+}
+
+.nav-links-list {
+list-style:none;
+padding: 0;
+
+}
+
+.nav-links-list>li {
+  display:inline-block;
+  padding: 0 15px;
+  color:white;
+}
+
+.nav-links-list>li a {
+  text-decoration:none;
+  color:white !important;
+}
+
+.card-title {
+  font-size:18px;
+  font-weight: bold;
+}
+
+.topics-list {
+  margin-top: 10px;
+  padding: 0 30px;
+}
+
+.topics-list>li {
+  margin-bottom: 4px;
+
+}
+
+.gallery-item {
+  height: 100px;
+  padding:10px;
+}
+
+.cover {
+  background-color: #484848;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 100%;
+}
+
+.cover > img {
+  width: 50px;
+}
+
+footer {
+padding:14px 20px;
+background: #53aadd;
+overflow:hidden;
+}
+
+.footer-text {
+font-weight: bold;
+display:block;
+float:left;
+margin-top: 7px;
+
+}
+
+.footer-help {
+ float:right;
+}
+
+.help-icon {
+display:inline-flex;
+align-items:center;
+justify-content: center;
+width:30px;
+height:30px;
+border-radius: 50%;
+border:2px solid #222;
+}
